@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace tarea4.entidades
+namespace AsincronaClase4.entidades
 {
-    public class EntidadContador
+    public class EntidadDelConteo
     {
         public string Texto { get;set; } = "";
         

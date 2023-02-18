@@ -1,18 +1,18 @@
-﻿using tarea4.entidades;
-using tarea4.negocio;
+﻿using AsincronaClase4.entidades;
+using AsincronaClase4.negocio;
 
-EntidadContador Texto = new EntidadContador ();
-ClsNegocioContador clsNegocioContador = new ClsNegocioContador();
+EntidadDelConteo Texto = new EntidadDelConteo ();
+ClsNegocioConteo clsNegocioConteo = new ClsNegocioConteo();
 
 
 
-  Console.WriteLine("Ingrese un Texto:");
-  string textoIngresado = Console.ReadLine();
+  Console.WriteLine("Por favor ingrese su texto:");
+  string textoQueIngreso = Console.ReadLine();
 
-  EntidadContador entidad = new EntidadContador();
-  entidad.Texto = textoIngresado;
+  EntidadDelConteo entidad = new EntidadDelConteo();
+  entidad.Texto = textoQueIngreso;
 
-  ClsNegocioContador negocio = new ClsNegocioContador();
-  int cantidadLetras = negocio.ContarLetras(entidad);
+  ClsNegocioConteo negocio = new ClsNegocioConteo();
+  int LacantidadDeLetras = negocio.ContarLetras(entidad);
 
-  Console.WriteLine ("La cantidad de letras ingresadas es: " + cantidadLetras);
+  Console.WriteLine ("La cantidad de letras que usted ingreso son: " + LacantidadDeLetras);

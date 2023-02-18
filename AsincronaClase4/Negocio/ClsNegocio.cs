@@ -2,15 +2,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using tarea4.entidades;
+using AsincronaClase4.entidades;
 
-namespace tarea4.negocio
+namespace AsincronaClase4.negocio
 
 {
-    public class ClsNegocioContador
+    public class ClsNegocioConteo 
     {
 
-      public int ContarLetras(EntidadContador entidad)
+      public int ContarLetras(EntidadDelConteo entidad)
       {
         return entidad.Texto.Length;
       }  
